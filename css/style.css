@@ -1,5 +1,4 @@
 /* html */
-/* поменять на вар */
 :root {
   --background-color: #ffffff;
   --title-color: #212121;
@@ -25,7 +24,8 @@ body {
 
 /* logo */
 .logo-part-one,
-.logo-part-one-footer {
+.logo-part-one-footer,
+.logo-part-two {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -35,19 +35,13 @@ body {
   color: var(--accent-color);
 }
 
-.logo-part-two {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
+.logo-part-two.difference {
   color: var(--logo-part-two-color);
 }
 
 /* nav */
-.nav-link {
-  font-family: "Roboto", sans-serif;
+.nav-link,
+.adress {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,20 +55,13 @@ body {
   color: var(--accent-color);
 }
 
-.adress-container .adress {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
+.adress.difference {
   color: var(--main-text-color);
 }
-
 .adress:hover,
 .adress:focus {
   color: var(--accent-color);
 }
-
 /* hero */
 
 .hero {
@@ -128,7 +115,8 @@ body {
 
 /* what we do */
 
-.features-title {
+.features-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16px;
@@ -137,17 +125,8 @@ body {
 
   color: var(--title-color);
 }
+
 /* team */
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-color);
-}
 
 .team-names {
   font-weight: 500;
@@ -163,7 +142,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -174,11 +152,11 @@ body {
 
 .footer {
   height: 252px;
-
   background-color: var(--footer-background-color);
 }
 
-.logo-part-one-footer {
+.logo-part-one-footer,
+.logo-part-two-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -188,17 +166,12 @@ body {
   color: var(--accent-color);
 }
 
-.logo-part-two-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19px;
-  letter-spacing: 0.03em;
-
+.logo-part-two-footer.difference {
   color: var(--background-color);
 }
 
-.adress-footer {
+.adress-footer,
+.contacts-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -207,9 +180,6 @@ body {
   color: var(--background-color);
 }
 
-.contacts-footer {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.contacts-footer.difference {
   color: rgba(255, 255, 255, 0.6);
 }
