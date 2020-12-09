@@ -2,21 +2,23 @@ a {
   text-decoration: none;
 }
 
-.logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
+body {
+  background-color: #ffffff;
+  color: #212121;
 }
+ul {
+  list-style: none;
+}
+
+.adress-container .adress {
+  color: #757575;
+}
+
+.adress:hover,
+.adress:focus {
+  color: #2196f3;
+}
+
 .logo-part-one {
   color: #2196f3;
 }
@@ -25,10 +27,52 @@ a {
   color: #000000;
 }
 
-.main-nav {
-  position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+.nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-title,
+.features-title,
+.team-title,
+.team-names {
+  color: #212121;
+}
+
+.advantages-text,
+.position {
+  color: #757575;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.adress-footer {
+  color: #ffffff;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-part-one-footer {
+  color: #2196f3;
+}
+
+.logo-part-two-footer {
+  color: #ffffff;
 }
