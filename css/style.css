@@ -1,90 +1,215 @@
+/* html */
+/* поменять на вар */
 :root {
-  --main-text-color: #212121;
+  --background-color: #ffffff;
+  --title-color: #212121;
+  --main-text-color: #757575;
   --accent-color: #2196f3;
+  --logo-part-two-color: #000000;
+  --footer-background-color: #2f303a;
 }
 
 a {
   text-decoration: none;
 }
 
-body {
-  background-color: #ffffff;
-  color: #212121;
-}
 ul {
   list-style: none;
 }
 
-.adress-container .adress {
-  color: #757575;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--title-color);
 }
 
-.adress:hover,
-.adress:focus {
-  color: #2196f3;
-}
+/* logo */
+.logo-part-one,
+.logo-part-one-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-.logo-part-one {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-part-two {
-  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--logo-part-two-color);
 }
 
+/* nav */
 .nav-link {
-  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
+.adress-container .adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
 .hero {
-  background: #2f303a;
+  height: 600px;
+  background-color: var(--footer-background-color);
 }
 
 .hero-title {
-  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  color: var(--background-color);
 }
 
 /* button */
 
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
 
-.advantages-title,
-.features-title,
-.team-title,
-.team-names {
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+
   color: var(--main-text-color);
 }
 
-.advantages-text,
-.position {
-  color: #757575;
+/* what we do */
+
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
 }
+/* team */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+/* footer */
 
 .footer {
-  background: #2f303a;
-}
+  height: 252px;
 
-.adress-footer {
-  color: #ffffff;
-}
-.contacts-footer {
-  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--footer-background-color);
 }
 
 .logo-part-one-footer {
-  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
 }
 
 .logo-part-two-footer {
-  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+
+  color: var(--background-color);
+}
+
+.adress-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: inherit;
+  color: var(--background-color);
+}
+
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
