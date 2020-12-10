@@ -18,6 +18,8 @@ ul {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   background-color: var(--white-color);
   color: var(--title-color);
 }
@@ -42,10 +44,8 @@ body {
 .nav-link,
 .adress {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-color);
 }
 
 .nav-link:hover,
@@ -92,16 +92,12 @@ body {
 
 .advantages-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
 }
 
 .advantages-text {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -116,7 +112,6 @@ body {
   line-height: 1.16px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 
 /* team */
@@ -127,11 +122,9 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 
 .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -162,8 +155,6 @@ body {
 
 .adress-footer,
 .contacts-footer {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: inherit;
@@ -182,7 +173,6 @@ body {
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -196,11 +186,9 @@ body {
   line-height: 2;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-color);
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
