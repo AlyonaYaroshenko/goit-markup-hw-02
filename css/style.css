@@ -40,11 +40,17 @@ body {
 }
 
 /* nav */
+
+.site-nav .nav-link.current {
+  color: var(--title-color);
+}
+
 .nav-link,
 .adress {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
 .nav-link:hover,
